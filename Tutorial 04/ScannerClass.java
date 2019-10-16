@@ -5,12 +5,12 @@ public class ScannerClass{
 	public static void main(String[] args){
 	
 		String userInput = null;
-		Scanner scanner1 = new Scanner(System.in);
+		Scanner sc = new Scanner(System.in);
 
 		System.out.println("Enter something you want to print");
 		
-		userInput = scanner1.next();
+		userInput = sc.next();
 
-		System.out.println(userInput);
+		System.out.println(userInput + " was what you wanted to be printed. ");
 	}
 }
